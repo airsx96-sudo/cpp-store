@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifana Yemen Market</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            padding: 30px;
+            text-align: center;
+            border-bottom: 2px solid #10b981;
+        }
+        header h1 {
+            margin: 0;
+            color: #10b981;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        header p {
+            color: #94a3b8;
+            margin-top: 10px;
+            font-size: 1.1rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        .product-card {
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            border-color: #10b981;
+        }
+        .product-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        .product-title {
+            font-size: 1.4rem;
+            margin: 10px 0;
+            color: #f1f5f9;
+        }
+        .product-price {
+            color: #10b981;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+        .buy-btn {
+            background-color: #10b981;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            width: 100%;
+            transition: background-color 0.2s;
+        }
+        .buy-btn:hover {
+            background-color: #059669;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Rifana Yemen Market</h1>
+        <p>Welcome to our premium e-commerce platform, powered entirely by the speed of C++.</p>
+    </header>
+
+    <div class="container">
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-icon">☕</div>
+                <div class="product-title">Premium Yemeni Coffee Beans</div>
+                <div class="product-price">$45.00</div>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🍯</div>
+                <div class="product-title">Natural Sidr Do'ani Honey</div>
+                <div class="product-price">$90.00</div>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">💎</div>
+                <div class="product-title">Authentic Polished Yemeni Agate</div>
+                <div class="product-price">$120.00</div>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
